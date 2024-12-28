@@ -1,0 +1,39 @@
+{
+  "name": "bricks-ui",
+  "version": "1.0.0",
+  "description": "A collection of reusable, high quality react components for building robust and scalable user interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anudeepalla4/bricks-ui.git"
+  },
+  "keywords": [
+    "ui-components",
+    "react",
+    "components"
+  ],
+  "author": "anudeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anudeepalla4/bricks-ui/issues"
+  },
+  "homepage": "https://github.com/anudeepalla4/bricks-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.2",
+    "rollup": "^4.29.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0"
+  }
+}
